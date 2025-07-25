@@ -12,19 +12,19 @@
    font-weight: 400;
    line-height: 1.5;
    border-radius: 10px;
-   border: 2px solid $colorBorder;
-   background-color: $colorCard;
+   border: 2px solid #c79fef;
+   background-color: #fefbca;
    padding: 0.375rem 0.55rem;
-   color: $colorText;
+   color: #55280c;
    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
    &:hover{
-      border: 2px solid $colorBackground;
+      border: 2px solid #bef574;
    }
    &:focus{
-      border: 2px solid $colorText;
+      border: 2px solid #55280c;
    }
    &::placeholder {
-      color: $colorBorder;
+      color: #c79fef;
       opacity: 0.5;
     } 
 }
@@ -37,19 +37,19 @@
    font-weight: 400;
    line-height: 1.5;
    border-radius: 10px;
-   border: 2px solid $colorBorder;
-   background-color: $colorCard;
+   border: 2px solid #c79fef;
+   background-color: #fefbca;
    padding: 0.375rem 0.55rem;
-   color: $colorText;
+   color: #55280c;
    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
    &:hover{
-      border: 2px solid $colorBackground;
+      border: 2px solid #bef574;
    }
    &:focus{
-      border: 2px solid $colorText;
+      border: 2px solid #55280c;
    }
    &::placeholder {
-      color: $colorBorder;
+      color: #c79fef;
       opacity: 0.5;
     }
 }
@@ -60,16 +60,16 @@
    font-size: 16px;
    font-weight: bold;
    border-radius: 10px;
-   background-color: $colorBorder;
-   color: $colorText;
+   background-color: #c79fef;
+   color: #55280c;
    border: none;
    cursor: pointer;
    &:hover{
-      border: 2px solid $colorBorder;
-      background-color: $colorBackground;
+      border: 2px solid #c79fef;
+      background-color: #bef574;
    }
    &:focus{
-      background-color: $colorBackground;
-      border: 2px solid $colorText;
+      background-color: #bef574;
+      border: 2px solid #55280c;
    }
 }
