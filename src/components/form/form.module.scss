@@ -1,0 +1,75 @@
+.form{
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+}
+.formInputTitle{
+   outline: none;
+   display: block;
+   width: 350px;
+   min-height: 35px;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   border-radius: 10px;
+   border: 2px solid $colorBorder;
+   background-color: $colorCard;
+   padding: 0.375rem 0.55rem;
+   color: $colorText;
+   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+   &:hover{
+      border: 2px solid $colorBackground;
+   }
+   &:focus{
+      border: 2px solid $colorText;
+   }
+   &::placeholder {
+      color: $colorBorder;
+      opacity: 0.5;
+    } 
+}
+.formInputDiscription{
+   outline: none;
+   display: block;
+   width: 350px;
+   min-height: 70px;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   border-radius: 10px;
+   border: 2px solid $colorBorder;
+   background-color: $colorCard;
+   padding: 0.375rem 0.55rem;
+   color: $colorText;
+   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+   &:hover{
+      border: 2px solid $colorBackground;
+   }
+   &:focus{
+      border: 2px solid $colorText;
+   }
+   &::placeholder {
+      color: $colorBorder;
+      opacity: 0.5;
+    }
+}
+
+.formButton{
+   width: 350px;
+   height: 40px;
+   font-size: 16px;
+   font-weight: bold;
+   border-radius: 10px;
+   background-color: $colorBorder;
+   color: $colorText;
+   border: none;
+   cursor: pointer;
+   &:hover{
+      border: 2px solid $colorBorder;
+      background-color: $colorBackground;
+   }
+   &:focus{
+      background-color: $colorBackground;
+      border: 2px solid $colorText;
+   }
+}
